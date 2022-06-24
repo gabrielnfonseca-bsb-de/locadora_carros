@@ -1,0 +1,91 @@
+*{
+	margin:100;    /* resetar margens do navegador */
+	padding:100;   /*resetar espaços */
+}
+body{
+	background-color:#221152; /* cor do fundo da página*/
+}
+.flex-container {
+    display: flex;
+}
+.valores{
+	text-align: right;
+}
+.titulo{
+	text-align: left;
+}
+.botoes{
+	text-align: right;
+}
+.tabrecibo{
+	border-collapse: collapse;
+}
+.linharecibo{
+	border-bottom: 1px solid black;
+}
+#recibox{
+	width:310px; /*largura do bloco de conteúdo */
+	height:0 auto; /* altura autmomática para preenchimento de conteúdo */
+	margin-left:30px; /* margem esquerda */
+	padding:20px 20px 20px 20px; /* margens internas do bloco - superior, direito, inferior e esquerdo 20px. */
+	background-color:white; /* cor do box */
+	border-radius:15px; /* arrendondamento de bordas do box */
+	box-shadow:2px 4px 8px black; /* sombra do box - tamanho, deslocamento, enevoamente e cor */
+}
+#box{  /* div id - sempre idenficada pelo símbolo "#" */
+	width:600px; /*largura do bloco de conteúdo */
+	height:0 auto; /* altura autmomática para preenchimento de conteúdo */
+	margin-left:30px; /* margem esquerda */
+	padding:20px 20px 20px 20px; /* margens internas do bloco - superior, direito, inferior e esquerdo 20px. */
+	background-color:white; /* cor do box */
+	border-radius:15px; /* arrendondamento de bordas do box */
+	box-shadow:2px 4px 8px black; /* sombra do box - tamanho, deslocamento, enevoamente e cor */
+	align-items: center;
+}
+#imagem{  /* div id - sempre idenficada pelo símbolo "#" */
+	height:0 auto; /* largura do bloco de conteúdo */
+	height:0 auto; /* altura autmomática para preenchimento de conteúdo */
+	width: 1320px;
+	align-content: center;
+	margin-left:30px; /* margem esquerda */
+	padding: 20px 20px 20px 20px; /* margens internas do bloco - superior, direito, inferior e esquerdo 20px. */
+	background-color:white; /* cor do box */
+	border-radius:15px; /* arrendondamento de bordas do box */
+	box-shadow:2px 4px 8px black; /* sombra do box - tamanho, deslocamento, enevoamente e cor */
+}
+	
+h1{
+	margin-left:30px; /* margem esquerda */
+	font-family:"Arial Black", Gadget, sans-serif; /* tipo de fonte */
+	color:white; /* cor da fonte */
+	margin-top:30px; /* margem do topo */
+	margin-bottom:20px; /* margem da base */
+	text-shadow:1px 1px black; /* sombra do texto - tamanho, deslocamento e cor */
+}
+	
+h2{
+	font-family:"tahoma"; /* tipo de fonte */
+	color:black; /* cor da fonte */
+	margin-top:10px; /* margem da base */
+	
+}
+
+p{
+	font-family:Arial, Helvetica, sans-serif; /* tipo de fonte */
+	color:#808080; /* cor da fonte */
+	text-align:justify; /* alinhamento do texto */
+	margin-top:20px; /* margem do topo */
+	line-height: 20px; /* espaçamento entre linhas */
+	text-indent: 30px; /* tabulação da primeira linha */
+}
+a{
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: rgb(119, 119, 255);
+}
+a:visited{
+	color:grey;
+}
+a:hover{
+	color:cornflowerblue;
+}
