@@ -1,0 +1,94 @@
+	/*Itens gerais*/
+*{
+	margin:100; /*resetar margens do navegador*/
+	padding:100; /*resetar espaços */
+}
+body{
+	background-color:#0054c9;
+}
+h1{
+	margin-left:30px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	color:rgb(255, 255, 255);
+	margin-top:30px; /*margem do topo */
+	margin-bottom:20px; /*margem da base */
+	text-shadow:1px 1px black;
+}
+h2{
+	margin-left:0 auto;
+	font-family:"Arial Black", Gadget, sans-serif;
+	color:black;
+	margin-top:30px; /*margem do topo */
+	margin-bottom:20px; /*margem da base */
+}
+h3{
+	margin-left:0 auto;
+	font-family:"Arial Black", Gadget, sans-serif;
+	color:rgb(0, 0, 0);
+	margin-top:0 auto; /*margem do topo */
+	margin-bottom:0 auto; /*margem da base */
+}
+p{
+	font-family:Arial,Helvetica, sans-serif;
+	color:#808080;
+	margin-top:20px;
+	line-height:20px; /*espaçamento entre as linha */
+	text-indent:30px; /*tabulação da primeira linha */
+}
+
+	/*Itens com id*/
+.flex-container {
+	display:flex;
+}
+
+	/*Itens por classe*/
+#box { /*div id - sempre identificada pelo símbolo "#" */
+	width:500px;
+	height:0 auto;
+	margin-left:30px;
+	padding: 20px 20px 20px;/*margens internas do bloco - superior,direito, inferior e esquerdo 20 px */
+	background-color:rgb(207, 230, 255); 
+	border-radius:15px; /*arrendondamento das bordas do box */
+	box-shadow:2px 4px 8px black; /*sombra do box - tamanho, deslocamento, enevoamento e cor */
+}
+#imagem {
+	height:0 auto;
+	width:1320px;
+	align-content:center;
+	margin-left:30px;
+	padding:20px 20px 20px 20px; 
+	background-color:rgb(207, 230, 255);
+	border-radius:15px;
+	box-shadow: 2px 4px 8px black;
+}
+
+	/*Itens por tabelas*/
+/*tr:nth-child(odd){
+	background-color:#dddddd;
+}
+
+	/*Hiperlinks*/
+a{
+	font-family:Arial,Helvetica, sans-serif;
+	text-decoration:none;
+	color:rgb(183, 183, 255);
+	
+}
+a:visited{
+	color:grey;
+}
+a:hover{
+	color:rgba(255, 0, 0, 0.929);
+}
+
+/*itens por classe*/
+.cadastro{
+	color: antiquewhite;
+}
+.itens{
+	color: blue;
+}
+
+
+
+
